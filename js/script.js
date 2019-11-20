@@ -1,11 +1,50 @@
-// *************************** YOUR CODE BELOW *******************************
-//******************TEST EARLY AND OFTEN USING console.log() ******************
-//****************** SERIOUSLY TEST USING console.log()!!! ******************
-
-//GLOBAL VARIABLES
-/* global $ */
-
+$("#shoot").click(function(){
+   let UserWord = $("#input").val();
+   $("#userChoice").text(UserWord)
+        let RandomNum = Math.floor((Math.random() * 3) + 0);
+        let CompChoices = ["scissors", "rock", "paper"]
 
 
-// DOCUMENT READY FUNCTION BELOW
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
